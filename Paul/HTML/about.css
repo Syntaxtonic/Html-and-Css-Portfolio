@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding: 15px;
+    background-color: #000;
+    color: white;
+}
+
+header {
+    background-color: #04AA6D;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+#profile-picture {
+    width: 200px;
+    height: 200px;
+    background-image: url('Paul-nolingo2.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+
+  }
+  
+
+.paragraph-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'open Sans, sans-serif';
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.profile-info {
+    text-align: center;
+    padding-top: 20px; /* Adjust this value as needed */
+  }
+  
+  .profile-info h1 {
+    margin-bottom: 10px; /* Adjust this value as needed */
+  }
+  
+  .profile-info h2 {
+    margin-top: 0; /* Adjust this value as needed */
+  }
+  
+
+.about {
+    text-align: center;
+    margin-top: 900px;
+}
+
+.skills {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: #ddd;
+    margin: 10px auto;
+}
+
+.progress {
+    height: 100%;
+}
