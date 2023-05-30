@@ -3,7 +3,7 @@
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
+  /* Styling the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -13,13 +13,13 @@
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
+  /* Changing the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Add a color to the active/current link */
+  /* Adding a color to the active/current link */
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
@@ -43,6 +43,48 @@ img {
 img:hover {
     transform: perspective(800px) rotate(0);
 }
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+  /* CSS rules for small screens */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Additional styles for specific elements */
+  .header {
+    background-color: #f2f2f2;
+  }
+}
+
+/* Styles for screens between 601px and 1200px */
+@media (min-width: 601px) and (max-width: 1200px) {
+  /* CSS rules for medium screens */
+  body {
+    font-size: 16px;
+  }
+  
+  /* Additional styles for specific elements */
+  .header {
+    background-color: #ccc;
+  }
+}
+
+/* Styles for screens larger than 1200px */
+@media (min-width: 1201px) {
+  /* CSS rules for large screens */
+  body {
+    font-size: 18px;
+  }
+  
+  /* Additional styles for specific elements */
+  .header {
+    background-color: whitesmoke;
+  }
+}
+
+
+
 
 
 
